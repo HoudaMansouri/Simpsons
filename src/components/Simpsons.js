@@ -3,7 +3,7 @@ import React from "react";
 const Simpsons = ({ simpson }) => {
   return (
     <div className="Simpsons">
-      <img src={simpson.image} />
+      <img src={simpson.image} alt={character} />
       <h1>Name : {simpson.character}</h1>
       <p>Quote : {simpson.quote}</p>
     </div>
